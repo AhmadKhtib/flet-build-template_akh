@@ -8,8 +8,12 @@ environment:
   sdk: '>=3.1.5 <4.0.0'
 
 dependencies:
+  sqflite: ^2.0.0+4
   flutter:
     sdk: flutter
+
+  flet: ^0.19.0
+  
 
   serious_python: ^0.7.0
   # serious_python:
@@ -131,3 +135,8 @@ flutter_native_splash:
   image_dark_ios: "images/icon.png"
   image_web: "images/icon.png"
   image_dark_web: "images/icon.png"
+
+
+
+
+  
